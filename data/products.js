@@ -928,6 +928,7 @@ import{formatcurrency} from '../scripts/utils/money.js';
       keywords: [
         "accessories",
         "Mobile",
+        "Phone",
         "electronics"
       ], 
     },
