@@ -53,7 +53,7 @@ console.log(order.length)
 if (order.length===0) {
   ordergrid.innerHTML=`<div class="orders-empty-container">
           <div class="emptyorderimage">
-              <img src="/Javascript Projects/Final Projects/Amazon/images/icons/no-order-3.svg" alt="empty order images">
+              <img src="images/icons/no-order-3.svg" alt="empty order images">
           </div>
           <div class="emptyordercontent">
               <h3>No Orders <span>Yet!</span></h3>

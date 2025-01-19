@@ -74,7 +74,7 @@ export function updateordersummmary(){
         if (cart.cartItems.length === 0 && !isorderplaced) {
             Checkout_summary.innerHTML = `<div class="cart-item-container empty-cart">
                 <div class="cartimage">
-                    <img src="/Javascript Projects/Final Projects/Amazon/images/icons/R.png" alt="empty cart images">
+                    <img src="images/icons/R.png" alt="empty cart images">
                 </div>
                 <div class="emptycontent">
                     <h3>Your Cart is <span>Empty!</span></h3>
@@ -82,7 +82,7 @@ export function updateordersummmary(){
                 </div>
                 <button class="buyback">
                     <a href="amazon.html">
-                    <img src="/Javascript Projects/Final Projects/Amazon/images/icons/buy-again.png" alt="logo of buyback"> Return To Store</a></button>
+                    <img src="images/icons/buy-again.png" alt="logo of buyback"> Return To Store</a></button>
             </div>`;
         }
         else if (isorderplaced) {
@@ -96,7 +96,7 @@ export function updateordersummmary(){
             </div>
             <button class="Vieworders">
                 <a href="orders.html">
-                <img src="/Javascript Projects/Final Projects/Amazon/images/icons/cargo_3045670.png" alt="logo of buyback"> View Orders</a></button>
+                <img src="images/icons/cargo_3045670.png" alt="logo of buyback"> View Orders</a></button>
         </div>`
         }
     };

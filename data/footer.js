@@ -17,7 +17,7 @@ export function footer(){
               </path>
             </svg></a></li>
         <li><a target="_blank" href="https://www.instagram.com/awazii__1/?hl=en"><img
-              src="/Javascript Projects/Final Projects/Amazon/images/icons/instagram-svgrepo-com.svg"></a></li>
+              src="images/icons/instagram-svgrepo-com.svg"></a></li>
       </ul>
     </div>`
 }
