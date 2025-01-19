@@ -843,7 +843,7 @@ import{formatcurrency} from '../scripts/utils/money.js';
   },
   {
     id: "a978df3b-c11a-4046-849b-4b3a96e8b3f2",
-    image: "https://ronin.pk/cdn/shop/files/R-740_Earbuds_Black_1.png?v=1725356143",
+    image: "images/products/61IRjjz7S7L._AC_SL1500_.webp",
     name: "Wireless Earbuds",
     rating: {
       stars: 4,
