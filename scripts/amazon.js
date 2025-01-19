@@ -256,12 +256,14 @@ function searching (check,searchinput){
     justforyou.style.display="block"
     slider.style.display="block"
     allproducts.style.display="block"
-    banner.style.display="block"
     footer.style.display="block"
     searchheading.innerHTML=``
     searchpara.innerHTML=``
     searchimage.innerHTML=``
     searchimage.style.marginBottom="0px"
+    if (window.innerWidth>800) {
+      banner.style.display="block"
+    }
   }
  
 }
