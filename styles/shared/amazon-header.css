@@ -47,7 +47,6 @@
 .amazon-mobile-logo {
   display: none;
 }
-
 @media (max-width: 575px) {
   .amazon-logo {
     display: none;
@@ -59,7 +58,6 @@
     margin-top: 5px;
   }
 }
-
 .amazon-header-middle-section {
   flex: 1;
   max-width: 850px;
@@ -103,7 +101,6 @@
   display: flex;
   justify-content: end;
 }
-
 .orders-link {
   color: white;
 }
@@ -144,7 +141,77 @@
   position: absolute;
   top: 4px;
   left: 22px;
-  
+
   width: 26px;
   text-align: center;
 }
+.asideicon{
+  display: none;
+}
+.aside{
+display: none;
+ width:110px;
+ background-color: rgb(19, 25, 33);
+ z-index: 2000;
+ position: fixed;
+ top: 0;
+ right: 0;
+margin: auto;
+ height: 100vh;
+  transform: translateX(110px); 
+  transition: all .3s ease;
+}
+.asidecontent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+.revert{
+  display: none;
+}
+@media (max-width: 500px){
+  .amazon-header-right-section .orders-link {
+    display: none;
+  }
+  .aside{
+    display: block;
+  }
+  .asideicon{
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .revert{
+    display: block;
+  }
+  .revert h3 {
+    color: white;
+  }
+  .revert-button {
+    background-color: transparent;
+    border: none;
+  }
+  .revert img{
+    width: 32px;
+  }
+  .amazon-header-right-section .cart-link{
+    display: none;
+  }
+  .amazon-header-right-section{
+    width: 30px;
+  }
+  .amazon-header-middle-section{
+    position: relative;
+  }
+  .search-button{
+    width: 50px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+  }
+}
+

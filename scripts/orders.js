@@ -1,11 +1,13 @@
-import { checkout_items_update } from "./utils/cartcount.js";
+import { cartcount as checkout_items_update } from "./utils/cartcount.js";
 import { order } from "../data/placeorder.js";
 import { cart } from "../data/Cart-Class.js";
 import { products } from "../data/products.js";
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
+import { aside } from './shared/aside.js';
 console.log(order);
 window.onload = function () {
     document.querySelector(".cart-quantity").innerHTML =  checkout_items_update ()
+    aside(3)
 }
 function orderdetials(order){
   let html=''

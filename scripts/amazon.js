@@ -3,6 +3,8 @@ import { products } from '../data/products.js';
 import { sliding_products,banners } from '../data/slider_product.js';
 import { formatcurrency } from './utils/money.js';
 import { footer } from '../data/footer.js';
+import {cartcount} from '../scripts/utils/cartcount.js'
+import { aside } from './shared/aside.js';
 function renderhomepage(products){
 let html = document.querySelector(".products-grid-js")
 html.innerHTML=``;
@@ -128,16 +130,9 @@ banners.forEach((image,alt)=>{
   html2.innerHTML+=` <div class="banner"><img  src="${image}" alt="banner${alt+1}"></div>`
 }
 )
-let cart_element = document.querySelector(".cart-quantity")
-let cartcount = () => {
- let cart_quantity = 0;
-  cart.cartItems.forEach((cartitems) => {
-    cart_quantity += cartitems.quantity;
-  });
-  cart_element.innerHTML = cart_quantity;
-}
 window.onload = () => {
-  cartcount();
+  aside()
+ document.querySelector(".cart-quantity").innerHTML= cartcount();
   if (search) {
     document.querySelector(".search-button").click()
   }
