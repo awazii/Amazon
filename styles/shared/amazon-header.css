@@ -209,7 +209,7 @@ margin: auto;
   }
   .search-button{
     width: 50px;
-    background-color: transparent;
+    background-color: white;
     position: absolute;
     right: 0;
   }
