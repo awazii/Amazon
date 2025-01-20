@@ -1,10 +1,11 @@
+import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 export function footer(){
     let html=document.getElementsByTagName("footer")[0]
     html.innerHTML = `  <div class="headings">
       <h2>Awazii</h2>
     </div>
     <div class="para">
-      <p>© 2024 [Amazon Clone] All rights reserved.</p>
+      <p>© ${dayjs().format("YYYY")} [Amazon Clone] All rights reserved.</p>
     </div>
     <div class="cont">
       <ul class="social">
