@@ -15,7 +15,7 @@ export let sliding_products=[ {
   },
   {
     id: "d4a9e7b5-12c4-4b19-bb1f-8c4d2a5f3e9e",
-    image: "https://typeshop.pk/wp-content/uploads/2024/01/redmi-noye-13-pro-price-in-pakistan.webp",
+    image: "images/products/20redminote13header.jpg",
     name: "Redmi note 13 pro",
     rating: {
       stars: 4,
