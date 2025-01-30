@@ -152,7 +152,7 @@ document.querySelectorAll(".btn-js").forEach((button) => {
   let timeoutId; // Store timeout specific to each button
   button.addEventListener("click", (e) => {
     cart.addtocart(e, button)
-    cartcount()
+    document.querySelector(".cart-quantity").innerHTML= cartcount();
     added(timeoutId, e, button)
   });
 });
